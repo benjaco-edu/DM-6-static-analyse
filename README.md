@@ -3,9 +3,10 @@ This is the handin for assignment 6 discrete math, static analyser.
 This repo contains a single javascript file. This file holds the declaration of the code to be analysed in the top of the file (the variable code).
 
 # How to make it go
-- Either copy all the contense of the main.js file into the chrome-console (F12) and hit enter
+Either
+- Copy all the contense of the main.js file into the chrome-console (F12) and hit enter
 (NB. due to use of 'eval' command, in the code, you might see the following: "Content Security Policy: The page’s settings blocked the loading of a resource at eval (“script-src”)." - if this is run in a firefox console) 
-Alternatively
+
 - use nodejs and execute the command:
 ```
 node main.js
